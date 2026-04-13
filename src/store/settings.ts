@@ -237,7 +237,7 @@ export const minProxyCardWidth = useStorage<number>(
 )
 export const manageHiddenGroup = useStorage('config/manage-hidden-group-mode', false)
 
-export const displayGlobalByMode = useStorage('config/display-global-by-mode', false)
+export const displayGlobalByMode = useStorage('config/display-global-by-mode', true)
 export const customGlobalNode = useStorage('config/custom-global-node-name', GLOBAL)
 
 export const proxyGroupIconSize = useStorage('config/proxy-group-icon-size', 24)
